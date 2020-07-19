@@ -28,11 +28,15 @@
 .menu {
     padding-top: 8%;
     padding-bottom: 8%;
-    padding-left: 3%;
+    text-align: center;
 }
 
 .menuItem {
-    display: inline-table;
+    display: inline-block;
+}
+
+.menuItemText {
+    text-align: center;
 }
 
 .menuItemIcon {
@@ -53,12 +57,19 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 6%;
+    padding-bottom: 2%;
     color: rgb(198, 224, 177);
 }
 
 .contact {
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
+}
+
+.github {
+    display: inline-block;
+    font-size: 0.4em;
 } 
 
 .github_img {
@@ -73,6 +84,13 @@
 
 .foot {
     background-color: green;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.copyright {
+    font-size: 1em;
+    text-align: center;
 }
 
 h1 {
