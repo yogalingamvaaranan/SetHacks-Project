@@ -1,34 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+.wrapper {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 .background {
-	background-color: #7fff00;
+    background-color: #9EFF2F;
 }
 
 .banner {
-    background-color: #008800;
+    background-color: green;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .banner_img {
     display: block;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .menu {
-    background-color: #fff8dc;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 3%;
 }
 
 .menuItem {
-    background-color: black;
     display: inline-table;
 }
 
 .menuItemIcon {
     width: 250px;
     height: auto;
+    transition: transform 0.2s;
+}
+
+.menuItemIcon:hover {
+    transform: scale(1.1);
 }
 
 .info {
-    background-color: coral;
+    background-color: green;
 }
 
 .textBox {
-    background-color: crimson;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    color: rgb(198, 224, 177);
+}
+
+.contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
+
+.github_img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.github_img:hover {
+    transform: scale(1.1);
+  }
+
+.foot {
+    background-color: green;
+}
+
+h1 {
+    font-family: Times, Georgia;
+    font-size: 4.7em;
+} 
+
+p {
+    font-family: Times, Georgia;
+    font-size: 2.5em; 
 }
